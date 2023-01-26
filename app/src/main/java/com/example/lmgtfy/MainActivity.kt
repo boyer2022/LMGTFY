@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         // Asking Android to start an activity (Using the web browser)
         startActivity(browserIntent)
     }
-    
+
 // Function to search with validation confirmation text
     private fun echoUserSearchTerm() {
         val text = searchText.text
